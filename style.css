@@ -1,0 +1,97 @@
+body{
+  background-color: black;
+}
+
+
+.container{
+  border: 2px solid red;
+  position: absolute;
+  height: 200px;
+  width: 80%;
+}
+.ball{
+  background-color: red;
+  height: 60px;
+  width: 60px;
+  border-radius: 45px;
+  position: absolute;
+  bottom: 0;
+
+  animation-name: bounce;
+  animation-duration: 0.9s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  
+  
+}
+
+@keyframes bounce {
+  0%{
+    left: 0%;
+    bottom: 0%;
+  }
+  10%{
+    left: 5%;
+    bottom: 5%;
+  }
+
+  20%{
+    left: 10%;
+    bottom: 10%;
+  }
+
+  30%{
+    left: 15%;
+    bottom: 15%;
+  }
+
+  40%{
+    left: 20%;
+    bottom: 20%;
+  }
+
+  50%{
+    left: 25%;
+    bottom: 25%;
+  }
+
+  60%{
+    left: 30%;
+    bottom: 20%;
+  }
+
+  70%{
+    left: 35%;
+    bottom: 15%;
+  }
+
+  80%{
+    left: 40%;
+    bottom: 10%;
+  }
+
+  90%{
+    left: 45%;
+    bottom: 5%;
+  }
+
+  100%{
+    left: 50%;
+    bottom: 0%;
+    height: 60px;
+    width: 72px;
+  }
+}
+
+
+
+
+  
+
+
+
+
+  
+  
+
+
